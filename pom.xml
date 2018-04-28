@@ -15,5 +15,9 @@
         <module>asura-base-starter</module>
     </modules>
 
-
+    <parent>
+        <groupId>org.asuraframework</groupId>
+        <artifactId>asura-bom</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
 </project>
