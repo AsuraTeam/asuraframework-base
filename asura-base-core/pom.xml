@@ -11,5 +11,10 @@
 
     <artifactId>asura-base-core</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.asuraframework</groupId>
+            <artifactId>asura-commons</artifactId>
+        </dependency>
+    </dependencies>
 </project>
