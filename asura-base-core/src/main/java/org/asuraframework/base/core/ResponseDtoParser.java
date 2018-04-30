@@ -65,7 +65,7 @@ public class ResponseDtoParser {
      * @param json
      * @return
      */
-    public static <T, K, V> ResponseDto<Map<K, V>> fromJson(String json, Class<? extends Map> mapClass, Class<K> clsk, Class<V> clsv) throws IOException {
+    public static <K, V> ResponseDto<Map<K, V>> fromJson(String json, Class<? extends Map> mapClass, Class<K> clsk, Class<V> clsv) throws IOException {
         TypeFactory typeFactory = TypeFactory.defaultInstance();
         JavaType mapType = typeFactory.constructMapType(mapClass, clsk, clsv);
         JavaType javaType = typeFactory.constructParametricType(ResponseDto.class, mapType);
