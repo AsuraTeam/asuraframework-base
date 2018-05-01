@@ -35,6 +35,7 @@ public interface BaseService<T extends BaseEntity> {
 
     /**
      * 查找对应的对象
+     * @param id
      * @return
      */
     T findById(Object id);

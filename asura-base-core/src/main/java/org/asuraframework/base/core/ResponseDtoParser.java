@@ -25,6 +25,10 @@ import java.util.Map;
  */
 public class ResponseDtoParser {
 
+    private ResponseDtoParser() {
+
+    }
+
     /**
      * 从json获取对象,获取不到泛型对象
      *
